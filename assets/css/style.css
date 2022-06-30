@@ -14,3 +14,114 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: var(--cream-color);
+}
+
+.card {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-image {
+    width: 230px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.card-content {
+    background-color: var(--white-color);
+    width: 250px;
+    padding: 2rem;
+    font-family: var(--common-ff);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-title {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--dark-cyan-color);
+    margin-bottom: 1rem;
+}
+
+.card-product-name {
+    font-family: var(--head-ff);
+    margin-bottom: .4rem;
+}
+
+.card-product-text {
+    font-size: 12px;
+    color: var(--dark-grayish-blue-color);
+}
+
+.card-prices {
+    display: flex;
+    align-items: center;
+    font-family: var(--head-ff);
+    margin: 1.2rem 0;
+}
+
+.card-main-price {
+    color: var(--dark-cyan-color);
+    font-size: 30px;
+}
+
+.card-muted-price {
+    color: var(--dark-grayish-blue-color);
+    text-decoration: line-through;
+    margin-left: .5rem;
+}
+
+.card-buy {
+    border: 0;
+    width: 100%;
+    padding: .8rem 0;
+    border-radius: 10px;
+    background-color: var(--dark-cyan-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.mobile {
+    display: none;
+}
+
+.button-text {
+    margin-left: .8rem;
+    font-weight: 400;
+}
+
+.card-buy:hover {
+    cursor: pointer;
+    background-color: var(--very-dark-blue-color);
+}
+
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: block;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .card-content {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+    .card-image {
+        width: 314px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+    }
+    .desktop {
+        display: none;
+    }
+}
