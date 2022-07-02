@@ -1,6 +1,6 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-# 🎨 NFT Card
+# 🎨 Product Preview
 ![image](https://user-images.githubusercontent.com/107084445/176718766-8a60d173-b513-4b15-929c-eeea421bd6bc.png)
 <hr>
 
